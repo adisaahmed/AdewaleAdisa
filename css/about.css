@@ -1,0 +1,73 @@
+.ventures {
+    height: 28em; 
+    display: flex;
+}
+
+.severus-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture1 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.visit-site {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: orange;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2.7em;
+}
+
+.severus-paragraph{
+    text-align: justify;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.squaredFin-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture2 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.squaredFin-paragraph {
+    text-align: justify; 
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.myGrowth-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture3 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.myGrowth-paragraph {
+    text-align: justify; 
+    margin-left: 3em;
+    margin-right: 3em;
+}
+    

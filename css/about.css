@@ -111,12 +111,15 @@
     color: white;
 }
 
-.speaker-paragraph1 {
-    font-weight: 400;
+.keynote-talks:hover {
+    color: white;
+    background: orange;
 }
 
-.speaker-paragraph2 {
-    font-weight: 400;
+.book-adewale:hover {
+    background: #ffa500bf;
+    color: white;
+
 }
 
     

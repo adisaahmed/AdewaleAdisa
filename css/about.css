@@ -127,4 +127,68 @@
 
 }
 
-    
+.entrepreneur-img1 {
+    height: 20em;
+    width: 35em;
+    background: #ddddcb;
+    margin-bottom: 1.5em;
+}
+
+.sector1 {
+    height: 54em; 
+    width: 89%; 
+    margin: auto; 
+    display: flex; 
+    gap: 4em;
+    padding-top: 4em;
+} 
+
+.sector2 {
+  height: 24em;
+  width: 89%;
+  margin: auto; 
+  display: flex; 
+  gap: 4em;
+}
+
+.award {
+    height: 20em;
+    width: 25em;
+    background: beige;
+}
+
+.award-img1 {
+    height: 12em;
+    background: white;
+}
+
+.award-img2 {
+    height: 12em;
+    background: orange;
+}
+
+.award-img3 {
+    height: 12em;
+    background: purple;
+}
+
+.award-details {
+    height: 8em;
+    background: black;
+}
+
+.recent {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 0px;
+}
+
+.recent-child {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 3em;
+}

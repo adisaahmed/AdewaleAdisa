@@ -70,4 +70,53 @@
     margin-left: 3em;
     margin-right: 3em;
 }
+
+.speaker {
+    display: flex;
+    width: 87%;
+    margin: auto;
+    background: black;
+    gap: 40px;
+    height: 56em;
+    padding-top: 4em; 
+}
+
+.speaker-img1 {
+    height: 21.5em;
+    width: 35em;
+    background: #ddddcb;
+}
+
+.speaker-img2 {
+    height: 20em;
+    width: 35em;
+    background: #524e4b;
+    margin-bottom: 1.5rem;
+}
+
+.book-adewale {
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-right: 2.5em;
+}
+
+.keynote-talks {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    color: white;
+}
+
+.speaker-paragraph1 {
+    font-weight: 400;
+}
+
+.speaker-paragraph2 {
+    font-weight: 400;
+}
+
     

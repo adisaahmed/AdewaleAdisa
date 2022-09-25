@@ -27,6 +27,11 @@
     margin-left: 2.7em;
 }
 
+.visit-site:hover {
+    background: #ffa500bf;
+    color: white;
+}
+    
 .severus-paragraph{
     text-align: justify;
     margin-left: 3em;

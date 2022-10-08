@@ -1,0 +1,202 @@
+.ventures {
+    height: 28em; 
+    display: flex;
+}
+
+.severus-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture1 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.visit-site {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: orange;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2.7em;
+}
+
+.visit-site:hover {
+    background: #ffa500bf;
+    color: white;
+}
+    
+.severus-paragraph{
+    text-align: justify;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.squaredFin-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture2 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.squaredFin-paragraph {
+    text-align: justify; 
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.myGrowth-cont {
+    background: black;
+    height: 28em;
+    width: 115em;
+    color: white;
+}
+
+.venture3 {
+    background: blue;
+    height: 28em;
+    width: 115em;
+}
+
+.myGrowth-paragraph {
+    text-align: justify; 
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.speaker {
+    display: flex;
+    width: 87%;
+    margin: auto;
+    background: black;
+    gap: 40px;
+    height: 56em;
+    padding-top: 4em; 
+}
+
+.speaker-img1 {
+    height: 21.5em;
+    width: 35em;
+    background: #ddddcb;
+}
+
+.speaker-img2 {
+    height: 20em;
+    width: 35em;
+    background: #524e4b;
+    margin-bottom: 1.5rem;
+}
+
+.book-adewale {
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-right: 2.5em;
+}
+
+.keynote-talks {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    color: white;
+}
+
+.keynote-talks:hover {
+    color: white;
+    background: orange;
+}
+
+.book-adewale:hover {
+    background: #ffa500bf;
+    color: white;
+
+}
+
+.entrepreneur-img1 {
+    height: 20em;
+    width: 35em;
+    background: #815681;
+    margin-bottom: 1.5em;
+}
+
+.sector1 {
+    height: 54em; 
+    width: 89%; 
+    margin: auto; 
+    display: flex; 
+    gap: 4em;
+    padding-top: 4em;
+} 
+
+.sector2 {
+  height: 24em;
+  width: 89%;
+  margin: auto; 
+  display: flex; 
+  gap: 4em;
+}
+
+.award {
+    height: 20em;
+    width: 25em;
+    background: beige;
+}
+
+.award-img1 {
+    height: 12em;
+    background: white;
+}
+
+.award-img2 {
+    height: 12em;
+    background: orange;
+}
+
+.award-img3 {
+    height: 12em;
+    background: #815681;
+}
+
+.award-details {
+    height: 8em;
+    background: black;
+}
+
+.recent {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 0px;
+}
+
+.recent-child {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 3em;
+}
+
+.speaker-paragraph1 {
+    text-align: justify;
+}
+
+.speaker-paragraph2 {
+    text-align: justify;
+}

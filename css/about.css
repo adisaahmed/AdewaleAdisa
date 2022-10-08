@@ -192,3 +192,11 @@
     color: orange;
     margin-bottom: 3em;
 }
+
+.speaker-paragraph1 {
+    text-align: justify;
+}
+
+.speaker-paragraph2 {
+    text-align: justify;
+}

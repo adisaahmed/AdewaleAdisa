@@ -27,6 +27,8 @@
   height: 320px;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  animation: change 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .main_body .main_body_content .main_body_content_first_section .main_body_content_first_section_container_container .row .col_1 .main_body_content_first_section_img_1 .main_body_content_first_section_container_container_h1 {
   font-size: 30px;
@@ -37,6 +39,14 @@
   width: 100%;
   font-weight: 600;
   font-family: Adamina !important;
+}
+@keyframes change {
+  0% {
+    background-image: url(../bannerimage-1.jpeg);
+  }
+  25% {
+    background-image: url(../bannerimage-2.jpeg);
+  }
 }
 .main_body .main_body_content .main_body_content_first_section .main_body_content_first_section_container_container .row .col_1 .overlay_1 {
   position: absolute;

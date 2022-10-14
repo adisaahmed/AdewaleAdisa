@@ -1,51 +1,112 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .main_body {
-    height: auto;
-    font-family: Adamina !important;
+  height: auto;
+  font-family: Adamina !important;
+}
+.main_body .main_body_content .main_body_content_header {
+  background-image: url(../img/WhatsApp\ Image\ 2022-09-30\ at\ 16.12.04.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 650px;
+  background-position: center;
+  animation: change 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+@keyframes change {
+  0% {
+    background-image: url(../bannerimage-1.jpeg);
   }
-  .main_body .main_body_content .main_body_content_header {
-    background-image: url(../img/WhatsApp\ Image\ 2022-09-30\ at\ 16.12.04.jpeg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 650px;
-    background-position: center;
+  25% {
+    background-image: url(../bannerimage-2.jpeg);
   }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg {
-    background-color: transparent !important;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent ul li .main_body_content_header_nav_ul_li_a {
-    padding: 15px 25px !important;
-    color: #fff !important;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: Adamina !important;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent ul li ul li a {
-    text-transform: uppercase;
-    font-size: 13px;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent form .main_body_content_header_nav_ul_li_button_a {
-    padding: 15px 25px !important;
-    color: orange !important;
-    font-weight: 600;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 2s;
-    font-family: Adamina !important;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent form .main_body_content_header_nav_ul_li_button_a:hover {
-    color: red !important;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent form .main_body_content_header_nav_ul_li_button_a:hover .main_body_content_header_nav_ul_li_a_font {
-    color: red !important;
-  }
-  .main_body .main_body_content .main_body_content_header .main_body_content_header_nav_bg .container .main_body_content_header_nav_list_parent form .main_body_content_header_nav_ul_li_button_a .main_body_content_header_nav_ul_li_a_font {
-    color: orange;
-    transition: color 2s;
-  }
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg {
+  background-color: transparent !important;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  ul
+  li
+  .main_body_content_header_nav_ul_li_a {
+  padding: 15px 25px !important;
+  color: #fff !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Adamina !important;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  ul
+  li
+  ul
+  li
+  a {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a {
+  padding: 15px 25px !important;
+  color: orange !important;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 2s;
+  font-family: Adamina !important;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a:hover {
+  color: red !important;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a:hover
+  .main_body_content_header_nav_ul_li_a_font {
+  color: red !important;
+}
+.main_body
+  .main_body_content
+  .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a
+  .main_body_content_header_nav_ul_li_a_font {
+  color: orange;
+  transition: color 2s;
+}

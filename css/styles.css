@@ -5,6 +5,119 @@
 .main_body {
   height: auto;
 }
+.main_body .main_body_content .contact_img {
+  background-image: url(../img/connect.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 650px;
+  background-position: center;
+  animation: change 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.main_body .main_body_content .main_contact_body {
+  height: auto;
+  background-color: #212121;
+  padding: 80px 0px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_first_step {
+  margin-bottom: 30px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_first_step .main_contact_body_left_first_step_h1 {
+  color: #fff;
+  font-size: 20px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_first_step .main_contact_body_left_first_step_p {
+  color: orange;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_second_step {
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_second_step .main_contact_body_left_second_step_p {
+  margin-bottom: 0px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_third_step {
+  color: #fff;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_third_step .main_contact_body_left_third_step_h1 {
+  font-size: 20px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_third_step .main_contact_body_left_third_step_p {
+  font-size: 15px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_fourth_step ul {
+  color: #fff;
+  list-style: none;
+  padding: 0px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_fourth_step ul li {
+  display: inline-block;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_left .main_contact_body_left_fourth_step ul li a {
+  color: #fff;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right {
+  background-color: #0f0f0f;
+  height: auto;
+  padding: 40px 40px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .row_row {
+  margin-bottom: 20px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .row .col .input_input {
+  background-color: #fff !important;
+  padding: 13px 10px;
+  border: none;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .form_casual_p {
+  color: #fff;
+  margin: 20px 0px;
+  font-size: 15px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .form_casual_p .form_casual_p_span {
+  display: inline-block;
+  color: orange;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form ul {
+  list-style: none;
+  color: #fff;
+  padding: 0px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form ul li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .button_parent {
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .button_parent a {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  transition: color 2s;
+  transition: border 2s;
+}
+.main_body .main_body_content .main_contact_body .container .row .main_contact_body_right form .button_parent a:hover {
+  color: red;
+  border: 1px dotted red;
+}
 .main_body .main_body_content .main_body_content_first_section .main_body_content_first_section_container_container .row .col_1 {
   position: relative;
   padding: 0px !important;
@@ -27,8 +140,6 @@
   height: 320px;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  animation: change 0.3s ease-in-out;
-  transition: 0.5s ease-in-out;
 }
 .main_body .main_body_content .main_body_content_first_section .main_body_content_first_section_container_container .row .col_1 .main_body_content_first_section_img_1 .main_body_content_first_section_container_container_h1 {
   font-size: 30px;
@@ -39,14 +150,6 @@
   width: 100%;
   font-weight: 600;
   font-family: Adamina !important;
-}
-@keyframes change {
-  0% {
-    background-image: url(../bannerimage-1.jpeg);
-  }
-  25% {
-    background-image: url(../bannerimage-2.jpeg);
-  }
 }
 .main_body .main_body_content .main_body_content_first_section .main_body_content_first_section_container_container .row .col_1 .overlay_1 {
   position: absolute;

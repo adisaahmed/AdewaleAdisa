@@ -16,14 +16,6 @@
   animation: change 0.3s ease-in-out;
   transition: 0.5s ease-in-out;
 }
-@keyframes change {
-  0% {
-    background-image: url(../bannerimage-1.jpeg);
-  }
-  25% {
-    background-image: url(../bannerimage-2.jpeg);
-  }
-}
 .main_body
   .main_body_content
   .main_body_content_header

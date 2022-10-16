@@ -421,12 +421,22 @@
     margin-right: 50px;
 }
 
+.keynote-link1:hover {
+    background: #d78e07;
+    color: white;
+}
+
 .keynote-link2 {
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     color: white;
     border: 1px solid orange;
+}
+
+.keynote-link2:hover {
+    background: orange;
+    color: white;
 }
 
 .leadT {

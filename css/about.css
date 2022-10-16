@@ -395,3 +395,101 @@
     margin-left: 2.2em;
     z-index: -1;
 }
+
+.keynote-pic1 {
+    width: 155em !important;
+    background: #384f70 !important;
+}
+
+.keynote-pic2 {
+    width: 67em !important;
+    height: 26em !important;
+    background: #958b8a !important;
+}
+
+.keynote-cont {
+    padding-top: 1em;
+    height: 33em !important;
+}
+
+.keynote-link1 {
+    padding: 10px 20px;
+    background: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.keynote-link2 {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 1px solid orange;
+}
+
+.leadT {
+    position: relative;
+}
+
+.leadT::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background: orange;
+    left: 0;
+    top: 134px;
+}
+
+.keynote-pic3 {
+    width: 34em !important;
+    height: 24.5em !important;
+    background: #07181a !important;
+    margin-top: 15px;
+}
+
+.leadT-1 {
+    position: relative;
+}
+
+.leadT-1::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background: orange;
+    left: 0;
+    top: 50px;
+}
+
+.keynote-pic4 {
+    width: 77em !important;
+    height: 24.5em !important;
+    background: #275156 !important;
+    margin-top: 15px;
+}
+
+.kT {
+    position: relative;
+    font-weight: bold;
+    padding-top: 1em;
+    color: white;
+    z-index: 1;
+    font-size: 55px;
+    padding-top: 8.6em;
+    padding-left: 123px;
+}
+
+.kT::after {
+    content: "";
+    position: absolute;
+    height: 34px;
+    background: orange;
+    width: 35.3%;
+    left: 0;
+    bottom: -8px;
+    margin-left: 2.2em;
+    z-index: -1;
+}

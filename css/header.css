@@ -24,6 +24,12 @@
 }
 .main_body
   .main_body_content
+  header
+  .main_body_content_header_nav_bg {
+  background-color: transparent !important;
+}
+.main_body
+  .main_body_content
   .main_body_content_header
   .main_body_content_header_nav_bg
   .container
@@ -40,7 +46,37 @@
 }
 .main_body
   .main_body_content
+  header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  ul
+  li
+  .main_body_content_header_nav_ul_li_a {
+  padding: 15px 25px !important;
+  color: #fff !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Adamina !important;
+}
+.main_body
+  .main_body_content
   .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  ul
+  li
+  ul
+  li
+  a {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.main_body
+  .main_body_content
+  header
   .main_body_content_header_nav_bg
   .container
   .main_body_content_header_nav_list_parent
@@ -71,7 +107,34 @@
 }
 .main_body
   .main_body_content
+  header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a {
+  padding: 15px 25px !important;
+  color: orange !important;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 2s;
+  font-family: Adamina !important;
+}
+.main_body
+  .main_body_content
   .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a:hover {
+  color: red !important;
+}
+.main_body
+  .main_body_content
+  header
   .main_body_content_header_nav_bg
   .container
   .main_body_content_header_nav_list_parent
@@ -92,7 +155,30 @@
 }
 .main_body
   .main_body_content
+  header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a:hover
+  .main_body_content_header_nav_ul_li_a_font {
+  color: red !important;
+}
+.main_body
+  .main_body_content
   .main_body_content_header
+  .main_body_content_header_nav_bg
+  .container
+  .main_body_content_header_nav_list_parent
+  form
+  .main_body_content_header_nav_ul_li_button_a
+  .main_body_content_header_nav_ul_li_a_font {
+  color: orange;
+  transition: color 2s;
+}
+.main_body
+  .main_body_content
+  header
   .main_body_content_header_nav_bg
   .container
   .main_body_content_header_nav_list_parent

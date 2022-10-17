@@ -215,6 +215,7 @@
     width: 90%;
     margin: auto;
     padding-top: 3em;
+    font-family: Adamina !important;
 }
 
 .book {
@@ -320,7 +321,7 @@
     position: absolute;
     height: 34px;
     background: orange;
-    width: 22.5%;
+    width: 24.3%;
     left: 0;
     bottom: -8px;
     margin-left: 2.2em;
@@ -343,7 +344,7 @@
     position: absolute;
     height: 34px;
     background: orange;
-    width: 20.2%;
+    width: 21%;
     left: 0;
     bottom: -8px;
     margin-left: 2.2em;
@@ -366,7 +367,7 @@
     position: absolute;
     height: 34px;
     background: orange;
-    width: 34.5%;
+    width: 37%;
     left: 0;
     bottom: -8px;
     margin-left: 2.2em;
@@ -382,6 +383,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 123px;
+    font-family: Adamina !important;
 }
 
 .car::after {
@@ -419,6 +421,7 @@
     color: white;
     font-weight: bold;
     margin-right: 50px;
+    font-family: Adamina !important;
 }
 
 .keynote-link1:hover {
@@ -432,6 +435,7 @@
     font-weight: bold;
     color: white;
     border: 1px solid orange;
+    font-family: Adamina !important;
 }
 
 .keynote-link2:hover {
@@ -454,7 +458,7 @@
 }
 
 .keynote-pic3 {
-    width: 35.5em !important;
+    width: 32.5em !important;
     height: 24.5em !important;
     background: #07181a !important;
     margin-top: 15px;
@@ -475,7 +479,7 @@
 }
 
 .keynote-pic4 {
-    width: 77em !important;
+    width: 75.5em !important;
     height: 24.5em !important;
     background: #275156 !important;
     margin-top: 15px;
@@ -490,6 +494,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 123px;
+    font-family: Adamina !important;
 }
 
 .kT::after {
@@ -497,7 +502,7 @@
     position: absolute;
     height: 34px;
     background: orange;
-    width: 35.3%;
+    width: 37.5%;
     left: 0;
     bottom: -8px;
     margin-left: 2.2em;

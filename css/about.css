@@ -508,3 +508,80 @@
     margin-left: 2.2em;
     z-index: -1;
 }
+
+.ment {
+    position: relative;
+    font-weight: bold;
+    padding-top: 1em;
+    color: white;
+    z-index: 1;
+    font-size: 55px;
+    padding-top: 8.6em;
+    padding-left: 123px;
+    font-family: Adamina !important;
+}
+
+.ment::after {
+    content: "";
+    position: absolute;
+    height: 34px;
+    background: orange;
+    width: 29.2%;
+    left: 0;
+    bottom: -8px;
+    margin-left: 2.2em;
+    z-index: -1;
+}
+
+
+.mentor-link1 {
+    padding: 10px 20px;
+    background: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+    font-family: Adamina !important;
+}
+
+.mentor-link1:hover {
+    background: #d78e07;
+    color: white;
+}
+
+.mentor-link2 {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 1px solid orange;
+    font-family: Adamina !important;
+}
+
+.mentor-link2:hover {
+    background: orange;
+    color: white;
+}
+
+.mentor-pic1 {
+    height: 20.5em;
+    width: 75.5em;
+    background: hsl(58deg 14% 39%);
+    margin-top: 15px;
+}
+
+.mentor-cont {
+    height: 28.5em;
+    display: flex; 
+    gap: 3em;
+    width: 90%;
+    margin: auto;
+    padding-top: 3em;
+    font-family: Adamina !important;
+}
+
+.mentor-img1 {
+    background: url(../img/mentor1.jpg);
+    background-size: cover;
+    height: 40em;
+}

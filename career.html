@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/bootstrap-5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <div class="main_body">
@@ -120,9 +121,15 @@
                       Adewale Diary
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="article.html">ARTICLES</a></li>
                       <li>
-                        <a class="dropdown-item" href="interview.html">INTERVIEWS</a>
+                        <a class="dropdown-item" href="article.html"
+                          >ARTICLES</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="interview.html"
+                          >INTERVIEWS</a
+                        >
                       </li>
                     </ul>
                   </li>
@@ -130,11 +137,13 @@
                     <a
                       class="nav-link main_body_content_header_nav_ul_li_a"
                       href="contact.html"
+                      data-target="#exampleModalCenter"
+                      data-toggle="modal"
                       >contact us</a
                     >
                   </li>
                 </ul>
-                <form class="d-flex" style="font-family: Adamina !important;">
+                <form class="d-flex" style="font-family: Adamina !important">
                   <a
                     href="connect.html"
                     class="main_body_content_header_nav_ul_li_button_a"
@@ -215,7 +224,10 @@
           </div>
         </section>
 
-        <div class="main_body_content_seven_section" style="font-family: Adamina !important;">
+        <div
+          class="main_body_content_seven_section"
+          style="font-family: Adamina !important"
+        >
           <div class="">
             <div class="row">
               <div
@@ -272,7 +284,7 @@
       </div>
     </div>
 
-    <footer style="font-family: Adamina !important;">
+    <footer style="font-family: Adamina !important">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -353,10 +365,96 @@
       </div>
     </footer>
 
+    <div
+      class="modal fade custom_modal"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered custom_modal_child"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close d-flex align-items-center justify-content-center"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true" class="ion-ios-close"></span>
+            </button>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-md-6 d-flex">
+              <div
+                class="modal-body p-5 img d-flex color-1 text-center d-flex align-items-center"
+              >
+                <div class="text w-100">
+                  <span class="icon-2 ion-ios-beer"></span>
+                  <h5>
+                    We're here to help and answer any question you might have.
+                    We look forward to hearing from you.
+                  </h5>
+                  <div class="icon">
+                    <span class="ion-ios-bicycle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex">
+              <div class="modal-body p-5 img d-flex align-items-center color-2">
+                <div class="text w-100 py-0 py-md-5">
+                  <h3 class="mb-4">How can we help?</h3>
+                  <form action="#" class="signup-form">
+                    <div class="form-group mb-3">
+                      <label class="label" for="name">Full Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="John Doe"
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="label" for="email">Email Address</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="johndoe@gmail.com"
+                      />
+                    </div>
+                    <div class="form-group mb-3">
+                      <label class="label" for="message">Message</label>
+                      <textarea name="" id="" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button
+                        type="submit"
+                        class="form-control btn btn-primary rounded submit px-3"
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="./css/bootstrap-5.0.2/js/bootstrap.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/77d1cfe8e9.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="https://use.fontawesome.com/53472337ef.js"></script>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>

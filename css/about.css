@@ -1,19 +1,21 @@
 .ventures {
-    height: 28em; 
+    height: auto; 
     display: flex;
 }
 
 .severus-cont {
     background: black;
     height: 28em;
-    width: 115em;
+    width: 50%;
     color: white;
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 .venture1 {
     background: blue;
-    height: 28em;
-    width: 115em;
+    height: auto;
+    width: 50%;
 }
 
 .visit-site {
@@ -34,45 +36,49 @@
     
 .severus-paragraph{
     text-align: justify;
-    margin-left: 3em;
+    margin-left: 3.4em;
     margin-right: 3em;
 }
 
 .squaredFin-cont {
     background: black;
-    height: 28em;
-    width: 115em;
+    height: auto;
+    width: 50%;
     color: white;
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 .venture2 {
     background: blue;
-    height: 28em;
-    width: 115em;
+    height: auto;
+    width: 50%;
 }
 
 .squaredFin-paragraph {
     text-align: justify; 
-    margin-left: 3em;
+    margin-left: 3.4em;
     margin-right: 3em;
 }
 
 .myGrowth-cont {
     background: black;
-    height: 28em;
-    width: 115em;
+    height: auto;
+    width: 50%;
     color: white;
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 .venture3 {
     background: blue;
-    height: 28em;
-    width: 115em;
+    height: auto;
+    width: 50%;
 }
 
 .myGrowth-paragraph {
     text-align: justify; 
-    margin-left: 3em;
+    margin-left: 3.4em;
     margin-right: 3em;
 }
 
@@ -81,20 +87,21 @@
     width: 87%;
     margin: auto;
     background: black;
-    gap: 40px;
-    height: 56em;
-    padding-top: 4em; 
+    gap: 5em;
+    height: auto;
+    padding-top: 6em;
+    padding-bottom: 6em; 
 }
 
 .speaker-img1 {
-    height: 21.5em;
-    width: 35em;
+    height: 23.4em;
+    width: 42em;
     background: #ddddcb;
 }
 
 .speaker-img2 {
     height: 20em;
-    width: 35em;
+    width: 37em;
     background: #524e4b;
     margin-bottom: 1.5rem;
 }
@@ -129,22 +136,33 @@
 
 .entrepreneur-img1 {
     height: 20em;
-    width: 35em;
+    width: 41em;
     background: #815681;
     margin-bottom: 1.5em;
 }
 
+.sect1 {
+    padding-bottom: 5em;
+    padding-top: 5em;
+    background: #140414;
+}
+
+.sect2 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background: #0e0d0d;
+}
+
 .sector1 {
-    height: 54em; 
+    height: auto; 
     width: 89%; 
     margin: auto; 
     display: flex; 
     gap: 4em;
-    padding-top: 4em;
 } 
 
 .sector2 {
-  height: 24em;
+  height: auto;
   width: 89%;
   margin: auto; 
   display: flex; 
@@ -152,7 +170,7 @@
 }
 
 .award {
-    height: 20em;
+    height: auto;
     width: 25em;
     background: beige;
 }
@@ -173,7 +191,7 @@
 }
 
 .award-details {
-    height: 8em;
+    height: 10em;
     background: black;
 }
 
@@ -183,6 +201,7 @@
     color: white;
     font-size: 2.4rem;
     margin-bottom: 0px;
+    font-family: Adamina !important;
 }
 
 .recent-child {
@@ -202,19 +221,31 @@
 }
 
 .career-pic1 {
-    width: 132em;
-    height: 20em;
+    height: 25em;
     background: #6b91c7;
     margin-top: 30px;
 }
 
+.career-sect1 {
+    padding-bottom: 3em;
+    padding-top: 3em;
+    background: #020e0d;
+}
+
+.career-sect2 {
+    background: black;
+    height: auto;
+    font-family: Adamina !important;
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
 .career-cont {
     display: flex; 
-    height: 29.5em; 
-    gap: 3em;
+    height: auto; 
+    gap: 1em;
     width: 90%;
     margin: auto;
-    padding-top: 3em;
     font-family: Adamina !important;
 }
 
@@ -222,9 +253,8 @@
     position: relative;
     text-align: center;
     font-weight: bold;
-    padding-top: 1em;
     color: white;
-
+    font-family: Adamina !important;
 }
 
 .book::after {
@@ -243,19 +273,34 @@
     display: flex;
     margin: auto;
     padding-top: 5em;
-    gap: 3em;
+    gap: 2em;
+    height: auto;
+}
+
+.bk1 {
+    height: auto;
+    background: #202020; 
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.bk2 {
+    height: auto;
+    background: #202020; 
+    padding-top: 16px;
+    padding-bottom: 20px;
 }
 
 .book-img1 {
     height: 15em;
-    width: 26em;
+    width: 32.5em;
     background: #b1afa8;
     margin-bottom: 20px;
 }
 
 .book-img2 {
     height: 15em;
-    width: 26em;
+    width: 32.5em;
     background: #90a58e;
     margin-bottom: 20px;
 }
@@ -290,6 +335,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 123px;
+    font-family: Adamina !important;
 }
 
 .ade::after {
@@ -297,9 +343,9 @@
     position: absolute;
     height: 34px;
     background: orange;
-    width: 37%;
+    width: 37.3%;
     left: 0;
-    bottom: -8px;
+    bottom: 5px;
     margin-left: 2.2em;
     z-index: -1;
 }
@@ -314,6 +360,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 117px;
+    font-family: Adamina !important;
 }
 
 .vent::after {
@@ -323,7 +370,7 @@
     background: orange;
     width: 24.3%;
     left: 0;
-    bottom: -8px;
+    bottom: 5px;
     margin-left: 2.2em;
     z-index: -1;
 }
@@ -337,6 +384,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 126px;
+    font-family: Adamina !important;
 }
 
 .spik::after {
@@ -346,7 +394,7 @@
     background: orange;
     width: 21%;
     left: 0;
-    bottom: -8px;
+    bottom: 5px;
     margin-left: 2.2em;
     z-index: -1;
 }
@@ -360,6 +408,7 @@
     font-size: 55px;
     padding-top: 8.6em;
     padding-left: 123px;
+    font-family: Adamina !important;
 }
 
 .ent::after {
@@ -369,7 +418,7 @@
     background: orange;
     width: 37%;
     left: 0;
-    bottom: -8px;
+    bottom: 5px;
     margin-left: 2.2em;
     z-index: -1;
 }
@@ -393,25 +442,32 @@
     background: orange;
     width: 18%;
     left: 0;
-    bottom: -8px;
+    bottom: 2px;
     margin-left: 2.2em;
     z-index: -1;
 }
 
 .keynote-pic1 {
-    width: 155em !important;
     background: #384f70 !important;
 }
 
 .keynote-pic2 {
-    width: 67em !important;
     height: 26em !important;
     background: #958b8a !important;
 }
 
+
+.keynote-sect1 {
+    background: black;
+     height: auto;
+     padding-bottom: 4em;
+    padding-top: 4em;
+}
+
 .keynote-cont {
+    gap: 2.3em !important;
+    height: auto !important;
     padding-top: 1em;
-    height: 33em !important;
 }
 
 .keynote-link1 {
@@ -454,14 +510,12 @@
     height: 4px;
     background: orange;
     left: 0;
-    top: 134px;
+    bottom: -18px;
 }
 
 .keynote-pic3 {
-    width: 32.5em !important;
     height: 24.5em !important;
     background: #07181a !important;
-    margin-top: 15px;
 }
 
 .leadT-1 {
@@ -479,10 +533,8 @@
 }
 
 .keynote-pic4 {
-    width: 75.5em !important;
     height: 24.5em !important;
     background: #275156 !important;
-    margin-top: 15px;
 }
 
 .kT {
@@ -504,7 +556,7 @@
     background: orange;
     width: 37.5%;
     left: 0;
-    bottom: -8px;
+    bottom: 5px;
     margin-left: 2.2em;
     z-index: -1;
 }
@@ -528,11 +580,18 @@
     background: orange;
     width: 29.2%;
     left: 0;
-    bottom: -8px;
+    bottom: 4px;
     margin-left: 2.2em;
     z-index: -1;
 }
 
+.menti {
+    background-color: #0e0c0c;
+    font-family: Adamina !important;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 
 .mentor-link1 {
     padding: 10px 20px;
@@ -565,18 +624,15 @@
 
 .mentor-pic1 {
     height: 20.5em;
-    width: 75.5em;
     background: hsl(58deg 14% 39%);
-    margin-top: 15px;
+    margin-top: 3em;
 }
 
 .mentor-cont {
-    height: 28.5em;
     display: flex; 
     gap: 3em;
     width: 90%;
     margin: auto;
-    padding-top: 3em;
     font-family: Adamina !important;
 }
 

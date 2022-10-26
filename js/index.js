@@ -7,7 +7,7 @@ const imgs = [
   "vent7.jpg",
   "vent8.jpg",
   "vent9.jpg",
-  "vent10.jpg",
+  "vent10.jpg"
 ];
 
 window.onload = function () {
@@ -15,5 +15,5 @@ window.onload = function () {
 
   selected_img = imgs[random_index];
 
-  document.getElementById(main_body_content_header) = `./img/${selected_img}`;
+  document.getElementsByClassName('main_body_content_header') = `./img/${selected_img}`;
 };
